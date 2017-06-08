@@ -4,12 +4,12 @@ class Maze(object):
     def __init__(self, filename):
         '''
         Maze objects have two main attributes:
-        - dim: mazes should be square, with sides of even length. (integer)
-        - walls: passages are coded as a 4-bit number, with a bit value taking
-            0 if there is a wall and 1 if there is no wall. The 1s register
-            corresponds with a square's top edge, 2s register the right edge,
-            4s register the bottom edge, and 8s register the left edge. (numpy
-            array)
+            - dim: mazes should be square, with sides of even length. (integer)
+            - walls: passages are coded as a 4-bit number, with a bit value taking
+                0 if there is a wall and 1 if there is no wall. The 1s register
+                corresponds with a square's top edge, 2s register the right edge,
+                4s register the bottom edge, and 8s register the left edge. (numpy
+                array)
 
         The initialization function also performs some consistency checks for
         wall positioning.
